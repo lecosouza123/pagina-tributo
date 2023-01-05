@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #004643b2;
+   
+}
+main{
+    width: 80vw;
+    background-color: #FCEFEF;
+    height:100vh;
+    margin-top: 30px;
+    border-radius: 15px 0px 15px;
+       
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #004643;
+    background-image: linear-gradient(to bottom, #4BC0D9,#4bbfd94d);
+    border-radius: 0px 0px 0px 200px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.538);
+    font-family: 'Bebas Neue', cursive;
+
+
+    
+}
+h2{
+    text-align: center;
+    color:#4BC0D9;
+    font-weight: bolder;
+    font-size:2em;
+    padding: 10px;
+    display: block;
+}
+.foto-pele{
+    background-image: url('../imagens/pele-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100%;
+    padding-bottom: 10px;
+}
+#data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    justify-content: space-around;
+    flex: 1;
+    margin: 10px;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive; 
+    color: #004643;
+}
+.ano{
+    display: flex;
+    justify-content: right;
+   
+}
+.ano::before{
+    content: '✟';
+}
+article{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    color: #004643;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-color: #fcefef;
+    text-align: center;
+    color: #4BC0D9;
+    padding: 10px;
+    width: 50%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, #004643a5, #4BC0D9);
+    padding: 10px;
+    color: #fcefef;
+    font-size: 1.8em;
+}
+p{
+    text-align: justify;
+    font-family:'Bebas Neue', cursive;
+    font-size: 0.8em;
+    padding: 10px;
+    line-height: 2em;
+    color: #4BC0D9;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+}
+footer  a {
+    color: white;
+}
+footer a:hover{
+    color: #4BC0D9;
+}
