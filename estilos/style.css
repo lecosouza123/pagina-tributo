@@ -3,18 +3,20 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
     
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #004643b2;
-   
+    background-color: #004643;
+  
 }
 main{
     width: 80vw;
@@ -34,8 +36,6 @@ h1{
     border-radius: 0px 0px 0px 200px;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.538);
     font-family: 'Bebas Neue', cursive;
-
-
     
 }
 h2{
